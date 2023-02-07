@@ -23,4 +23,11 @@ ul{
     .hiddenItems{
         display: none;
     }
+    .bag{
+        right: 20px;
+    }
+    .list{
+        left: 25px;
+        top: 4px;
+    }
 }
