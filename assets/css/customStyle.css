@@ -1,0 +1,26 @@
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.navBarLinks{
+    font-weight: 200;
+    font-size: smaller;
+}
+
+.row>*{
+    padding: 0;
+}
+
+ul{
+    justify-content: center;
+}
+
+@media all and (max-width: 991px) {
+    .hiddenItems{
+        display: none;
+    }
+}
