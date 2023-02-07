@@ -25,9 +25,32 @@ ul{
     }
     .bag{
         right: 20px;
+        top: 0px;
     }
     .list{
         left: 25px;
         top: 4px;
     }
+}
+
+.footerRow{
+    background: #f5f5f7;
+}
+
+.footerRow li{
+    font-weight: 500;
+    font-size: small;
+    color: #909090;
+    margin: 10px 0;
+}
+
+.footerRow li a{
+    color: #575757;
+}
+
+
+
+
+.footerLink:hover{
+    text-decoration: underline;
 }
