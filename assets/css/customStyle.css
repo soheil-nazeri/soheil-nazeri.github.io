@@ -11,6 +11,10 @@ a{
     font-size: smaller;
 }
 
+.navBar{
+    opacity: 85%;
+}
+
 .row>*{
     padding: 0;
 }
@@ -31,26 +35,44 @@ ul{
         left: 25px;
         top: 4px;
     }
+
 }
 
 .footerRow{
     background: #f5f5f7;
+    justify-content: center;
 }
 
 .footerRow li{
-    font-weight: 500;
+    font-weight: 400;
     font-size: small;
     color: #909090;
     margin: 10px 0;
 }
 
 .footerRow li a{
-    color: #575757;
+    color: #747474;
+}
+
+.footerSecondLinks li h3{
+    font-weight: 400;
+    font-size: small;
+}
+
+.footerSecondLinks h3{
+    color: rgb(55, 55, 55);
 }
 
 
-
-
-.footerLink:hover{
+.footerLink:hover , .footerSecondLinks a:hover{
     text-decoration: underline;
+    color: #575757;
+}
+
+.footerSecondLinks{
+    justify-content: center;
+}
+
+.btn{
+    text-align: left;
 }
